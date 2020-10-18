@@ -1,0 +1,104 @@
+log-failed-creating-log=Nie można utworzyć pliku logów
+log-failed-creating-folder=Nie udało się utworzyć folderu logów. Zamykam.
+config-loaded-from=Konfiguracja została załadowana: {0}
+credentials-not-set=Dane logowania nie są ustawione. Ustaw swoje dane logowania w pliku config.json
+credentials-using-offline-mode=Uruchamianie w trybie offline z nazwą użytkownika: {0}
+realms-id-not-set=Identyfikator Realms nie został ustawiony. Wyłączanie...
+realms-tos-agreement=************************************************************************************************\n\
+Jeśli chcesz używać Realms, musisz zaakceptować "tos" w config.json (realm-accept-tos)\n\
+************************************************************************************************
+realms-determining-address=Nawiązuje połączenie z serwerem ... (Próba {0})
+server-pinging=Pinguje {0}:{1} z protokołem MC-{2}
+packet-could-not-be-received=Nie można odebrać pakietu! Wyłączanie...
+bot-could-not-be-started=Wystąpił nieoczekiwany błąd: {0}\n\
+Bot zostanie zatrzymany ...
+bot-automatic-reconnect=FishingBot połączy się ponownie za {0} sekund ...
+auth-using-access-token=Próbuję uwierzytelnić się przy użyciu tokena dostępu ...
+auth-invalid-access-token=Token dostępu jest nieprawidłowy: {0} - próbuję odświeżyć ...
+auth-successful=Uwierzytelnianie powiodło się!
+auth-access-token-irrecoverably=Nie udało się odzyskać tokenu. Korzystanie z uwierzytelniania hasłem.
+auth-could-not-connect=Błąd podczas łączenia z: {0}
+auth-try-refreshing-access-token=Próbuję odświeżyć token dostępu ...
+auth-using-password=Próbuję uwierzytelnić się za pomocą {0}:************ ...
+auth-failed=Uwierzytelnianie nie powiodło się z kodem {0} z {1}:{2}
+auth-file-could-not-be-saved=Nie można zapisać pliku z danymi logowania ({0}):{1}
+auth-file-could-not-be-read=Nie można odczytać pliku z danymi logowania ({0}):{1}
+announce-level-up=Osiągnięty poziom: {0}
+command-bye=Do widzenia.
+command-empty=Opróżniam ekwipunek ...
+command-help=<My name>, {0} - {1}
+command-level=Masz {0} poziom
+command-bye-desc=Zatrzymuje bota
+command-empty-desc=Wyrzuca całą zawartość ekwipunku (z wyjątkiem wędki)
+command-help-desc=Wyświetla pomoc
+command-level-desc=Pokazuje aktualny poziom gracza
+command-stuck-help=Ponownie rzuca wędkę
+dialog-credentials-header=Nie ustawiłeś jeszcze swoich danych logowania!
+dialog-credentials-content=Wprowadź swoje dane logowania w pliku config.json.\n\
+Możesz także używać bota w trybie offline.\n\
+Ustaw tryb online na false i account.mail do żądanej nazwy użytkownika.
+dialog-realms-tos-header=Zaakceptuj warunki korzystania z usług Realms
+dialog-realms-tos-content=Aby używać tego bota w usłudze Realms, musisz zaakceptować warunki korzystania z tej usługi w pliku konfiguracyjnym.\n\
+(accept-tos w pliku config.json)
+config-failed-parsing=***************************************************************************************\n\
+Nie można przeanalizować Twojej konfiguracji, ponieważ nie odpowiada ona formatowi json:\n\
+{0}\n\
+***************************************************************************************
+config-unknown-announce-type=Typ ogłaszania {0} jest nieprawidłowy.
+config-missing-fields-detected=Twoja konfiguracja była niekompletna. Brakujące pola zostały dodane!
+config-converting=Starsza wersja twojego pliku konfiguracyjnego jest konwertowana ...
+config-converted-properties-to-json=Twój stary plik konfiguracyjny .properties został przeniesiony do nowego pliku konfiguracyjnego .json!
+module-chat-proxy-chat-message=[CZAT] {0}
+module-fishing-no-rod-available=Nie znaleziono wędki ...
+module-fishing-start-fishing=Zaczynam łowić!
+module-fishing-new-rod-available=Dostępna jest nowa wędka. Zaczynam łowić!
+module-fishing-bot-is-slow=Bot jest nieskuteczny. Może utknął. Próbuję ponownie uruchomić!
+module-handshake-disabling=Nie można wyłączyć modułu HandshakeModule.
+discord-webhook-damage=Otrzymałem obrażenia! Pozostała ilość życia: {0}
+discord-webhook-respawn=Odrodziłem się!
+module-login-hash-error=Nie można zhashować identyfikatora serwera. Bot zostanie zatrzymany ...
+module-login-failed=Logowanie nie powiodło się: {0}
+module-login-successful=Logowanie powiodło się!\n\
+Nazwa: {0}\n\
+UUID: {1}
+module-enabled=Moduł "{0}" włączony!
+module-disabled=Moduł "{0}" wyłączony!
+network-invalid-server-address=Podany serwer wydaje się nie istnieć. Sprawdź adres serwera w config.json (server.ip)
+network-received-pong=Odebrano pong: {0}, wersja: {1} ({2}), gracze online: {3}
+network-server-is-full=Serwer jest pełny. Bot zostanie zatrzymany!
+network-unknown-host=Serwer {0} jest nieznany.
+network-could-not-ping=Serwer {0} nie jest osiągalny w wersji Minecraft. Automatyczne wykrywanie wersji może nie działać. Ustaw domyślny protokół w config.json.
+network-changed-address=Host serwera został zmieniony: {0}
+network-changed-port=Port serwera został zmieniony: {0}
+network-not-supported-server-version=Ten serwer nie działa w obsługiwanej wersji protokołu: {0}\n\
+Bot może nie działać poprawnie.
+network-unknown-packet-id=Identyfikator pakietu dla {0} w {1} nie jest ustawiony. Zgłoś to: https://discord.com/invite/xHpCDYf
+realms-could-not-accept-tos=Warunki korzystania z usługi Realms nie mogły zostać zaakceptowane:  {0}
+realms-accepted-tos=Warunki korzystania z usług Realms zostały zaakceptowane!
+realms-could-not-determine-address=Nie można pobrać adresu serwera z {0}: {1}
+realms-connecting-to=Łączę się z Realm {0}...
+realms-could-not-connect-to-endpoint=Nie można połączyć się z Realm ({0}).
+module-client-disconnected=Rozłączono: {0}
+module-fishing-caught-item=Złowiłeś "{0}"
+ui-menu-file-close=Zamknij
+ui-menu-file=File
+ui-console-send=Wyślij
+ui-menu-edit=Edycja
+ui-menu-edit-delete=Skasuj wszystkie dane
+ui-menu-edit-open-config=Otwórz ustawienia...
+ui-menu-edit-open-log=Otwórz plik logu...
+ui-menu-edit-open-logdir=Otwórz folder logów...
+ui-menu-help=Pomoc
+ui-menu-help-discord=Discord...
+ui-menu-help-github=GitHub...
+ui-menu-help-issues=Błędy...
+ui-tabs-enchantments=Enchanty
+ui-tabs-enchantments-books=Enchantowane książki
+ui-tabs-enchantments-bows=Łuki
+ui-tabs-enchantments-count=Ilość
+ui-tabs-enchantments-enchantment=Enchantment
+ui-tabs-enchantments-level=Level
+ui-tabs-enchantments-rods=Wędki
+ui-tabs-loot=Złowione
+ui-tabs-loot-count=Ilość
+ui-tabs-loot-item=Przedmiot
